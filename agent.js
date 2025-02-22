@@ -1,4 +1,4 @@
-const query = `*[_type == "agentType"]{
+const query = `*[_type == "agents"]{
 
 "imageUrl": agentPhoto.asset->url,
 
