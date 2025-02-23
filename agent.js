@@ -38,7 +38,7 @@ async function getAgents() {
           <div class="agent-contant">
             <h2>${agent.name}</h2>
             <p>${agent.description}</p>
-            <a href="tel:${agent.contactNumber}">Connect</a>
+            <a href="tel:${agent.contact}">Connect</a>
           </div>
         `;
 
